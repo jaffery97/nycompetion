@@ -1,0 +1,185 @@
+/* Font  
+========================================================================================*/
+
+body { -webkit-text-size-adjust:100%; -moz-text-size-adjust:100%; font-family: Arial, Helvetica, sans-serif; font-size:13px; color:#959595; line-height:18px;}
+
+/* End Font  
+========================================================================================*/
+
+/* Branding  
+========================================================================================*/
+body {background: linear-gradient(to bottom right, #006699 10%, #009933 100%); color:#ffffff;}
+.pageWidth { width:932px; margin:0 auto; }
+
+#logo { background:none; border-radius:15px; padding:20px 1px 18px 31px; float:left; font-size:30px; font-weight:bold; color:#6f51ae; text-transform:uppercase; margin:0px 0 0 0 } 
+
+header, nav, section, footer { display:block;}
+#header { padding:20px 0 20px 0; margin-bottom:10px;}
+
+/* END Branding  
+========================================================================================*/
+
+/* HEADING   
+========================================================================================*/
+h1 { font-size:20px; color:#ffffff; line-height:28px; font-weight:bolder; margin-bottom:10px; }
+h2 { font-size:25px; color:#ffffff; line-height:26px; font-weight:bolder; margin-bottom:10px; text-align: center;}
+h3 { font-size:23px; color:#ffffff; line-height:24px; font-weight:bolder; margin-bottom:10px;}
+h4 { font-size:21px; color:#ffffff; line-height:22px; font-weight:bolder; margin-bottom:10px;}
+h5 {font-size:19px; color:#ffffff; line-height:20px; font-weight:bolder; margin-bottom:10px;}
+h6 {font-size:17px; color:#ffffff; line-height:18px; font-weight:normal; margin-bottom:10px;}
+
+/* END  HEADING   
+========================================================================================*/
+
+/* Links AND Button   
+========================================================================================*/
+a:focus{ outline:none;}
+a { color:#ebdc70; text-decoration:none;}
+a:hover { color:#000000;}
+li { list-style:none;}
+
+/* Links AND Button   
+========================================================================================*/
+
+/* Main Navigation 
+========================================================================================*/
+
+nav { padding:20px 0; border-radius:10px; float:right;}
+nav li { padding:0 10px; display:inline; line-height:12px;}
+nav li a { color:#ffffff; display:inline-block; line-height:33px; border-radius:12px; padding:0 9px 1px 9px; }
+nav li a:hover, nav li.active a { background:url(../img/nav-bg.png) repeat-x left top; color:#ffffff;}
+
+#menu {  display:none; color:#ffffff; font-size:16px; background:rgba(255,255,255,0.10); background-image:url(../img/menu-img.png);  background-repeat:no-repeat; background-position:97% 14px; padding:15px 0 19px 10px; text-align:left; }
+
+/* End Navigation 
+========================================================================================*/
+
+#container { padding:25px 12px; background-color:rgba(255,255,255,0.10); margin-bottom:10px;  }
+
+article ul li { padding-left:15px;}
+article ul li:before{ content:'B'; text-indent:-5px; font-weight:bold; font-size:60px; height:5px; line-height:5px; width:5px; border-radius:10px;  vertical-align:middle; float:left;  margin-left:-15px; overflow:hidden; margin-top:7px; }
+article ol { margin-left:15px; }
+article ol li { list-style:decimal; }
+
+.pageControl{ transform: translate(0px, 0px);
+-webkit-transform: translate(0px, 0px);
+-moz-transform: translate(0px, 0px);
+-o-transform: translate(0px, 0px);
+-ms-transform: translate(0px, 0px);
+}
+
+.activepage .pageControl{transform: translate(-1000px, 0px);
+-webkit-transform: translate(-1000px, 0px);
+-moz-transform: translate(-1000px, 0px);
+-o-transform: translate(-1000px, 0px);
+-ms-transform: translate(-1000px, 0px);
+
+}
+
+/* FORM 
+========================================================================================*/
+fieldset {}
+/* Footer
+===============================================*/
+footer { text-align:center; color:#ffffff; font-size:12px; padding:20px 0;}
+
+/* transition
+===============================================*/
+#wrapper, #widecolumn, aside, nav li{transition: all 0.2s; -moz-transition: all 0.2s; -webkit-transition: all 0.2s; -o-transition: all 0.2s;}
+
+/*Gallery*/
+div.gallery {
+    margin: 5px;
+    float: left;
+    width: 220px;
+    height: 180px;
+    font-size: 12px;
+    text-align: center;
+    box-shadow: 3px 4px 13px 0px black;
+}
+
+div.gallery:hover {
+    
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+/*search*/
+
+input[type=text] {
+    width: 84%;
+    height: 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background: rgba(62, 57, 55, 0.2);
+    color: aliceblue;
+    margin-left: 23px;
+    margin-top: 6px;
+    font-size: 15px;
+    
+    
+
+}
+
+/*body div*/
+.box2 {
+     text-align: left;
+    -webkit-column-count: 2; 
+    -moz-column-count: 2; 
+    column-count: 2;
+    -webkit-column-width: 400px; 
+    -moz-column-width: 400px; 
+    column-width: 400px;
+    margin-left: 14px;
+    color: black;
+    
+}
+.in {background-color: rgba(255, 255, 255, 0.6);
+}
+
+/*location*/
+div.location {
+    margin: 25px;
+    float: left;
+    text-align:left;
+    width: 400px;
+    
+    
+}
+
+#myBtn {
+    
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 100px;
+}
+
+#myBtn:hover {
+  background-color: lightsteelblue;
+}
+
+th {font-weight: bold;}
+td { white-space: normal;
+}
+
+
+button {
+    background-color: brown;
+}
+
+.h {
+    text-align: justify;
+}
+
+
